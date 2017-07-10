@@ -8,3 +8,4 @@ AppLog,
 Iconics for android (https://github.com/mikepenz/Android-Iconics)
 Material typeface for android,
 Octicons for android (https://github.com/primer/octicons)
+Butterknife (https://jakewharton.github.io/butterknife/)
