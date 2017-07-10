@@ -46,7 +46,9 @@ public class Utilities {
         if(progressDialog.isShowing()){
             progressDialog.hide();
         }
-        progressDialog.show();
+        if(activity.isFinishing()) {
+            progressDialog.show();
+        }
     }
 
     public static void showProgressDialog(Activity activity,String message){
@@ -56,7 +58,9 @@ public class Utilities {
         if(progressDialog.isShowing()){
             progressDialog.hide();
         }
-        progressDialog.show();
+        if(activity.isFinishing()) {
+            progressDialog.show();
+        }
     }
 
     public static void hideProgressDialog(Activity activity){

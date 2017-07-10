@@ -1,1 +1,1 @@
-include ':app', ':DaoGenerator', ':GeneratorDaoMain'
+include ':app', ':DaoGenerator', ':GeneratorDaoMain', ':DaoCore'

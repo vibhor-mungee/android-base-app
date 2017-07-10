@@ -2,6 +2,9 @@ Base application for android projects
 
 Includes-
 OkHttp3 network call class,
-Green dao integration,
+Green dao integration(https://github.com/greenrobot/greenDAO),
 Base Project file structure,
-AppLog
+AppLog,
+Iconics for android (https://github.com/mikepenz/Android-Iconics)
+Material typeface for android,
+Octicons for android (https://github.com/primer/octicons)
